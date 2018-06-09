@@ -1,0 +1,12 @@
+---
+- name: oVirt engine development environment
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  become: true
+  roles:
+    # - oVirt.engine-devel
+    - ovirt-engine-devel
+
+  vars:
+    project_dir: /home/greg/git
