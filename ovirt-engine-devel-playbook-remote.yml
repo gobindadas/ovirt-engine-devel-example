@@ -7,4 +7,5 @@
     - ovirt-engine-devel
 
   vars:
+    username: greg
     project_dir: /home/greg/git
